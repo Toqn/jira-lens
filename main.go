@@ -25,7 +25,7 @@ func main() {
 	}
 
 	configTab := ui.CreateConfigTab(userPreferences, appWindow.Canvas())
-	jiraTab := ui.CreateJiraTab()
+	jiraTab, _ := ui.CreateJiraTab()
 
 	tabs := container.NewAppTabs(
 		container.NewTabItemWithIcon("Jira", jiraIcon, jiraTab),
