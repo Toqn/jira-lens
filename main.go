@@ -11,7 +11,7 @@ import (
 	"github.com/Toqn/jira-lens/internal/ui"
 )
 
-const JIRA_PNG = "internal/assets/jira.png"
+const JiraPng = "internal/assets/jira.png"
 
 func main() {
 	jiralens := app.NewWithID("test")
@@ -19,7 +19,7 @@ func main() {
 	appWindow.Resize(fyne.NewSize(800, 600))
 	userPreferences := config.NewPreferences(jiralens)
 
-	jiraIcon, err := fyne.LoadResourceFromPath(JIRA_PNG)
+	jiraIcon, err := fyne.LoadResourceFromPath(JiraPng)
 	if err != nil {
 		log.Fatal(err)
 	}
