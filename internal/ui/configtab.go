@@ -4,7 +4,7 @@ import (
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/container"
 	"fyne.io/fyne/v2/widget"
-	"jira-lens/pkg/config"
+	"github.com/Toqn/jira-lens/internal/config"
 )
 
 // CreateConfigTab creates a tab for configuration settings

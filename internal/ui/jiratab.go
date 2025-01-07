@@ -5,7 +5,7 @@ import (
 	"fyne.io/fyne/v2/container"
 	"fyne.io/fyne/v2/dialog"
 	"fyne.io/fyne/v2/widget"
-	"jira-lens/pkg/jira"
+	"github.com/Toqn/jira-lens/internal/jira"
 	"strconv"
 	"strings"
 	"time"

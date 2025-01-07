@@ -5,13 +5,13 @@ import (
 	"fyne.io/fyne/v2/app"
 	"fyne.io/fyne/v2/container"
 	"fyne.io/fyne/v2/theme"
-	"jira-lens/pkg/config"
+	"github.com/Toqn/jira-lens/internal/config"
 	"log"
 
-	"jira-lens/pkg/ui"
+	"github.com/Toqn/jira-lens/internal/ui"
 )
 
-const JIRA_PNG = "pkg/assets/jira.png"
+const JIRA_PNG = "internal/assets/jira.png"
 
 func main() {
 	jiralens := app.NewWithID("test")
